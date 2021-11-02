@@ -1,0 +1,166 @@
+/*
+ * Hi! I'm your stylesheet! I've got some sensible defaults here,
+ * but feel free to change me to your heart's content!
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+button{
+  border:none;
+}
+body {
+  background: linear-gradient(#ffffff, #c0c0c0);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+}
+a:link, a:visited {
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+nav {
+  background-color: #c0c0c0;
+  display: flex;
+  height: 60px;
+  padding: 10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
+}
+/* .delete{
+width: 1.6rem;
+height: 1.2rem;
+text-align: center;
+} */
+.orange{
+  background: #E68181;
+}
+.bright-blue{
+  background: #30CDFF;
+}
+.rounded-corner{
+  border-radius: 15px;
+}
+.middle-grey{
+  background-color: #C4C4C4;
+}
+main {
+  background:#c0c0c0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-row{
+  display: flex;
+  flex-direction: row;
+}
+.container-column{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.navLinkProjects {
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration-line: underline;
+}
+.project-list{
+width: 60%;
+font-family: Roboto Mono;
+font-size: .5rem;
+line-height: .6rem;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+flex-wrap: wrap;
+align-items: center;
+}
+.description{
+  width: 20%;
+  padding: .2rem;
+  overflow: hidden;
+}
+.robot-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px;
+}
+.robot-row {
+  background: #C4C4C4;
+  display: flex;
+  width: 40%;
+  border: 1px solid rgb(0, 255, 255);
+  justify-content: space-evenly;
+  align-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.robot-image {
+  width: 80px;
+  height: 80px;
+}
+.image-link-container {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+/* text-decoration-line: underline; */
+
+/* Projects */
+
+/*
+position: absolute;
+left: 82.25%;
+right: 2.25%;
+top: 27.78%;
+bottom: 22.22%;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+text-decoration-line: underline;
+
+color: #000000;
+ */
+
+/* Robots */
+
+/* position: absolute;
+left: 65.88%;
+right: 17%;
+top: 27.78%;
+bottom: 0%;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+text-decoration-line: underline;
+
+color: #000000; */
